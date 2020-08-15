@@ -1,0 +1,6 @@
+{
+	"cmd": ["c:/python37/python.exe","-u","$file"],,
+	"shell_cmd": "make",
+	"file_regex":"^[ ]*File "(...*?)", line ([0-9]*)",
+    "selector":"source.python",
+}
